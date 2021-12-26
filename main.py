@@ -42,16 +42,16 @@ def opcoes2():
 
 
 
-name_label = tk.Label(app, text='entry your name: ', font=('calibre', 20, 'bold'))
+name_label = tk.Label(app, text='enter your name: ', font=('calibre', 20, 'bold'))
 name_entry = tk.Entry(app, textvariable=name_var, font=('arial 15'))
 
-animals_label = tk.Label(app, text='entry an animal: ', font=('calibre', 20, 'bold'))
+animals_label = tk.Label(app, text='enter an animal: ', font=('calibre', 20, 'bold'))
 animals_entry = tk.Entry(app, textvariable=animals_var, font=('arial 15'))
 
-profession_label = tk.Label(app, text='entry a profession: ', font=('calibre', 20, 'bold'))
+profession_label = tk.Label(app, text='enter a profession: ', font=('calibre', 20, 'bold'))
 profession_entry = tk.Entry(app, textvariable=profession_var, font=('arial 15'))
 
-place_label = tk.Label(app, text='entry a city: ', font=('calibre', 20, 'bold'))
+place_label = tk.Label(app, text='enter a city: ', font=('calibre', 20, 'bold'))
 place_entry = tk.Entry(app, textvariable=place_var, font=('arial 15'))
 
 name_label.grid(row=0, column=0)
